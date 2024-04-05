@@ -19,7 +19,7 @@ const AdminDashboard = () => {
                 {/* Top */}
                 <div className="top mb-5 px-5 mt-5">
                     <div className=" bg-pink-50 py-5 border border-pink-100 rounded-lg">
-                        <h1 className=" text-center text-2xl font-bold text-pink-500">Admin Dashboard</h1>
+                        <h1 className=" text-center text-2xl font-bold text-pink-500">Seller Dashboard</h1>
                     </div>
                 </div>
 
@@ -53,10 +53,10 @@ const AdminDashboard = () => {
                                 </h1>
 
                                 {/* Role  */}
-                                <h1 className=" text-center text-lg">
+                                {/* <h1 className=" text-center text-lg">
                                     <span className=" font-bold">Role : </span>
                                     {user?.role}
-                                </h1>
+                                </h1> */}
                             </div>
                         </div>
                     </div>
